@@ -1,0 +1,28 @@
+.footerParentDiv {
+  width: 100%;
+}
+.footerParentDiv .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #bfe7f5;
+  padding: 16px;
+}
+.footerParentDiv .content .heading {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.footerParentDiv .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #014b53;
+  color: whitesmoke;
+  height: 3cm;
+}
+
+.footerParentDiv .footer p {
+  margin: 0;
+}
